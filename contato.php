@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Lucas Azzi">
+    <meta name="author" content="Daniel Dacol">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="limpeza, casa, diaristas, faxineira, passadeira, lavar roupas, lavar casa">
@@ -15,7 +15,7 @@
     <header>
         <div class="container">
         <div class="logo">
-                <a href="index.php"><h2>I CLEAN</h2></a>
+                <a href="index.php"><h2>TDacol</h2></a>
             <div class="bar-mobile"><a class="click"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 <a class="close"><i class="fa fa-times" aria-hidden="true"></i></a></div>
             </div>
@@ -23,18 +23,11 @@
             <div class="line-text">
                 <div style="width: 120px;"></div>
                 </div>
-
-
             <nav class="menu-desktop">
             <ul>
                  <li>
-                     <a href="index.php">Home</a>
-                 </li>
-
-                <li class="">
-                    <!--fazer um link dessas paginas ao clicar no botao dos serviços-->
-                    <a href="diaristas.php">Diaristas</a>
-                 </li>
+                     <a href="index.html">Home</a>
+                 </li>             
 
                  <li class="selected">
                     <a href="contato.php">Contato</a>
@@ -46,52 +39,18 @@
         </header>
 
         <form>
-            <h3>Entre em contato conosco que responderemos o mais breve possivel!</h3> <br><br>
-            <input type="text" name="nome" placeholder="Digite o seu nome...">
-            <input type="text" name="email" placeholder="Digite o seu e-mail...">
+            <h3>Entre em contato conosco que responderemos o mais breve possivel!</h3> <br><br>           
 </form>
-
-<div class="texta">
-<textarea name="texta" id="" cols="30" rows="10">Digite um texto...</textarea>
-</div>
-<div class="btn">
-    <a href="">Enviar!</a>
-</div>
 <footer>
     <div class="footer1">
         <div class="icons">
-            <h2>Entre em contato conosco.</h2>
-            <img src="https://img.icons8.com/color/48/000000/whatsapp--v6.png"/>
-            <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+            <h2>Entre em contato conosco, click no icone do wattsap abaixo!</h2>
+            <a href="https://api.whatsapp.com/send?phone=5519997164208" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp--v6.png" alt="WhatsApp">
+              </a>             
         </div>
-        <div class="des"><a target="blank" href="https://links-page.vercel.app/"><h3>Desenvolvido por Lucas Azzi</h3></a></div>
+        <div class="des"><a target="blank" href="https://links-page.vercel.app/"><h3>Desenvolvido por Daniel Dacol</h3></a></div>
     </div>
-
 </footer>
-
-<!--Script--->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!--fontawesome-->
-<script src="https://use.fontawesome.com/2168dd8823.js"></script>
-<script>
-    $(function (){
-      $('.click').click(function (){
-          $('.click').css('display','none');
-          $('.menu-desktop').fadeIn();
-          $('.close').fadeIn();
-
-          $('.close').click(function (){
-              if ($('.menu-desktop').is(':visible')){
-                  $('.close').css('display','none');
-                  $('.menu-desktop').fadeOut();
-                  $('.click').fadeIn();
-
-              }
-          })
-
-      })
-    });
-</script>
-
 </body>
 </html>

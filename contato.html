@@ -28,13 +28,10 @@
             <nav class="menu-desktop">
             <ul>
                  <li>
-                     <a href="index.php">Home</a>
+                     <a href="contato.php">Home</a>
                  </li>
 
-                <li class="">
-                    <!--fazer um link dessas paginas ao clicar no botao dos serviços-->
-                    <a href="diaristas.php">Diaristas</a>
-                 </li>
+                
 
                  <li class="selected">
                     <a href="contato.php">Contato</a>
@@ -68,30 +65,5 @@
     </div>
 
 </footer>
-
-<!--Script--->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!--fontawesome-->
-<script src="https://use.fontawesome.com/2168dd8823.js"></script>
-<script>
-    $(function (){
-      $('.click').click(function (){
-          $('.click').css('display','none');
-          $('.menu-desktop').fadeIn();
-          $('.close').fadeIn();
-
-          $('.close').click(function (){
-              if ($('.menu-desktop').is(':visible')){
-                  $('.close').css('display','none');
-                  $('.menu-desktop').fadeOut();
-                  $('.click').fadeIn();
-
-              }
-          })
-
-      })
-    });
-</script>
-
 </body>
 </html>
