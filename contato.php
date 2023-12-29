@@ -45,7 +45,7 @@
     <div class="footer1">
         <div class="icons">
             <h2>Entre em contato conosco, click no icone do wattsap abaixo!</h2>
-            <a href="https://api.whatsapp.com/send?phone=5519997164208" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5519996109703" target="_blank">
                 <img src="https://img.icons8.com/color/48/000000/whatsapp--v6.png" alt="WhatsApp">
               </a>             
         </div>
