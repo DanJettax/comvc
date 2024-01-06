@@ -25,7 +25,8 @@ html,body{
 .logo h2{
     font-weight: 900;
     float: left;
-    font-size: 44px;
+    font-size: 44px;   
+    color: rgb(230, 80, 80);
 }
 
 .logo a{
@@ -241,6 +242,13 @@ header h1{
     top: 80px;
 }
 
+.center__infos2{
+    position: relative;   
+    margin-left: auto;
+    text-align: left;
+    top: 80px;
+}
+
 div.escolha h2{
     text-align: center;
     position: relative;
@@ -397,4 +405,9 @@ div.i img{
 .swiper-slide img {
     width: 100%; /* Ajuste conforme necessário */
     height: auto; /* Mantém a proporção da imagem */
+}
+
+.format {
+    color:  rgb(192, 47, 168);
+    font-size: 50px;  
 }
